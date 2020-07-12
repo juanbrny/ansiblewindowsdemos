@@ -23,13 +23,7 @@
           key: LockoutDuration 
           value: 30    
     
-    
-      - name: Windows Settings > Security Settings > System Services > Portable Device Enumerator Service
-        win_service:
-          name: WPDBusEnum
-          start_mode: disabled
-          state: stopped
-         
+
       ## Administrative templates
     
       - name: Administrative Templates > Network/Network Provider > Hardened UNC Paths
