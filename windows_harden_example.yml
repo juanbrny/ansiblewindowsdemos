@@ -57,6 +57,7 @@
           data: 3
     
     
-    
+      # Uncoment this play to reboot after all the changes done. 
+      # TODO: reboot only if a real change happened
       # - name: Reboot the machine with all defaults
       #   win_reboot:
